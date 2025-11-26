@@ -6,8 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> there is the wind and there the the water the wind push </h1>
-    <h1>there was a tree that fell i know where it is </h1>
-    <audio src=""></audio>
+    <h1>there is the wind and there the the water the wind push</h1>
+    <h1>there was a tree that fell i know where it is</h1>
+
+    <!-- Your audio needs an ID so the button can find it -->
+    <audio controls>
+        <source src="Seigfried.mp3">
+        Your browser does not support audio.
+    </audio>
+
+    <button onclick="document.getElementById('mysong').play()">Play Song</button>
+
 </body>
 </html>
